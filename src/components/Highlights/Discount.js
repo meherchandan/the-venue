@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Fade, Slide} from 'react-reveal'
+import GeneralButton from '../utils/GeneralButton';
 export default class Discount extends Component {
     state={
         discountStart:0,
@@ -29,7 +30,12 @@ export default class Discount extends Component {
                         <div className="discount_description">
                             <h3>Purchase tickets before 1st December</h3>
                             <p>Quisque leo orci, suscipit vitae sollicitudin consectetur, tempus quis nulla. Phasellus ornare vulputate leo non tempor. Ut fermentum nulla vitae enim pharetra, et lobortis sapien mollis. Phasellus eleifend pharetra libero, ut dapibus orci tempus eu. Nunc vel leo augue. Quisque aliquet nisl erat, a tincidunt diam fermentum a. Cras nec dui eros. Donec orci enim, semper at arcu vel, iaculis malesuada erat.</p>
-                            <div>button</div>
+                            <div><GeneralButton 
+                            label="Purchase ticket"
+                            background = "#ffa800"
+                            color="#ffffff"
+                            link="#"
+                            /></div>
                         </div>
                     </Slide>
                 </div>
