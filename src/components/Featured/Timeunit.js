@@ -11,7 +11,6 @@ export default class Timeunit extends Component {
 
     getTimeUntil(deadline){
         const time = Date.parse(deadline) - Date.parse(new Date());
-        console.log( Date.parse(deadline))
         let seconds=0,minutes=0,hours=0,days=0;
         if(time>0){
             seconds = Math.floor((time/1000)%60) ;
