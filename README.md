@@ -7,4 +7,4 @@ This is a practice project for React front end development. It's a static web wh
 
 ## Demo Info
 
-This project is deployed on Surge. Demo available on closed-range.surge.sh
+This project is deployed on Surge. Demo available on http://closed-range.surge.sh/
